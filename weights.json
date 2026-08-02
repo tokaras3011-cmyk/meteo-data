@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-08-02T10:16:50Z",
+    "updated":  "2026-08-02T10:17:56Z",
     "method":  "MAE teploty 2 m vs. 10min stanice CHMU (hodinove prumery), poslednich 3 dni; vaha = softmax(-MAE/0.7), podlaha 0.05",
     "per_model":  {
                       "ecmwf_ifs025":  {
