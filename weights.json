@@ -1,21 +1,21 @@
 {
-    "updated":  "2026-08-02T10:17:56Z",
+    "updated":  "2026-08-02T11:02:05Z",
     "method":  "MAE teploty 2 m vs. 10min stanice CHMU (hodinove prumery), poslednich 3 dni; vaha = softmax(-MAE/0.7), podlaha 0.05",
     "per_model":  {
                       "ecmwf_ifs025":  {
                                            "mae_t":  1.35,
                                            "n":  232,
-                                           "weight":  0.33
+                                           "weight":  0.329
                                        },
                       "icon_d2":  {
                                       "mae_t":  1.48,
                                       "n":  232,
-                                      "weight":  0.274
+                                      "weight":  0.275
                                   },
                       "icon_eu":  {
                                       "mae_t":  1.67,
                                       "n":  232,
-                                      "weight":  0.21
+                                      "weight":  0.209
                                   },
                       "gfs_seamless":  {
                                            "mae_t":  1.75,
@@ -103,7 +103,7 @@
                                                                            "n":  58
                                                                        },
                                                       "icon_d2":  {
-                                                                      "mae":  1.06,
+                                                                      "mae":  1.05,
                                                                       "n":  58
                                                                   },
                                                       "icon_eu":  {
