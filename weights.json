@@ -1,0 +1,149 @@
+{
+    "updated":  "2026-08-02T10:02:49Z",
+    "method":  "MAE teploty 2 m vs. 10min stanice CHMU (hodinove prumery), poslednich 3 dni; vaha = softmax(-MAE/0.7), podlaha 0.05",
+    "per_model":  {
+                      "ecmwf_ifs025":  {
+                                           "mae_t":  1.35,
+                                           "n":  232,
+                                           "weight":  0.33
+                                       },
+                      "icon_d2":  {
+                                      "mae_t":  1.48,
+                                      "n":  232,
+                                      "weight":  0.274
+                                  },
+                      "icon_eu":  {
+                                      "mae_t":  1.67,
+                                      "n":  232,
+                                      "weight":  0.21
+                                  },
+                      "gfs_seamless":  {
+                                           "mae_t":  1.75,
+                                           "n":  232,
+                                           "weight":  0.187
+                                       }
+                  },
+    "points":  {
+                   "bolehost":  {
+                                    "station":  "0-20000-0-11669",
+                                    "station_name":  "Polom, SedloÅov",
+                                    "dist_km":  23.2,
+                                    "per_model":  {
+                                                      "ecmwf_ifs025":  {
+                                                                           "mae":  2.88,
+                                                                           "n":  58
+                                                                       },
+                                                      "icon_d2":  {
+                                                                      "mae":  2.92,
+                                                                      "n":  58
+                                                                  },
+                                                      "icon_eu":  {
+                                                                      "mae":  2.89,
+                                                                      "n":  58
+                                                                  },
+                                                      "gfs_seamless":  {
+                                                                           "mae":  2.47,
+                                                                           "n":  58
+                                                                       }
+                                                  }
+                                },
+                   "hradec":  {
+                                  "station":  "0-20000-0-11652",
+                                  "station_name":  "Pardubice, letiÅ¡tÄ",
+                                  "dist_km":  22.4,
+                                  "per_model":  {
+                                                    "ecmwf_ifs025":  {
+                                                                         "mae":  0.73,
+                                                                         "n":  58
+                                                                     },
+                                                    "icon_d2":  {
+                                                                    "mae":  0.98,
+                                                                    "n":  58
+                                                                },
+                                                    "icon_eu":  {
+                                                                    "mae":  1.27,
+                                                                    "n":  58
+                                                                },
+                                                    "gfs_seamless":  {
+                                                                         "mae":  1.58,
+                                                                         "n":  58
+                                                                     }
+                                                }
+                              },
+                   "pardubice":  {
+                                     "station":  "0-20000-0-11652",
+                                     "station_name":  "Pardubice, letiÅ¡tÄ",
+                                     "dist_km":  3.7,
+                                     "per_model":  {
+                                                       "ecmwf_ifs025":  {
+                                                                            "mae":  0.93,
+                                                                            "n":  58
+                                                                        },
+                                                       "icon_d2":  {
+                                                                       "mae":  0.96,
+                                                                       "n":  58
+                                                                   },
+                                                       "icon_eu":  {
+                                                                       "mae":  1.17,
+                                                                       "n":  58
+                                                                   },
+                                                       "gfs_seamless":  {
+                                                                            "mae":  1.53,
+                                                                            "n":  58
+                                                                        }
+                                                   }
+                                 },
+                   "usti_orl":  {
+                                    "station":  "0-20000-0-11679",
+                                    "station_name":  "ÃstÃ­ nad OrlicÃ­",
+                                    "dist_km":  2.2,
+                                    "per_model":  {
+                                                      "ecmwf_ifs025":  {
+                                                                           "mae":  0.87,
+                                                                           "n":  58
+                                                                       },
+                                                      "icon_d2":  {
+                                                                      "mae":  1.06,
+                                                                      "n":  58
+                                                                  },
+                                                      "icon_eu":  {
+                                                                      "mae":  1.33,
+                                                                      "n":  58
+                                                                  },
+                                                      "gfs_seamless":  {
+                                                                           "mae":  1.41,
+                                                                           "n":  58
+                                                                       }
+                                                  }
+                                }
+               },
+    "storm_calibration":  {
+                              "method":  "podil hodin s narazem \u003e= 15 m/s nebo 10min srazkami \u003e= 4 mm, po binech prumerneho CAPE modelu; rolujici 60denni historie (data/history/storm_obs.json)",
+                              "bins":  [
+                                           {
+                                               "cape_min":  0,
+                                               "cape_max":  300,
+                                               "n":  412,
+                                               "storm_pct":  0
+                                           },
+                                           {
+                                               "cape_min":  300,
+                                               "cape_max":  800,
+                                               "n":  54,
+                                               "storm_pct":  11.1
+                                           },
+                                           {
+                                               "cape_min":  800,
+                                               "cape_max":  1500,
+                                               "n":  5,
+                                               "storm_pct":  0
+                                           },
+                                           {
+                                               "cape_min":  1500,
+                                               "cape_max":  null,
+                                               "n":  0,
+                                               "storm_pct":  null
+                                           }
+                                       ]
+                          }
+}
