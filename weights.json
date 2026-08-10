@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-08-10T10:02:04Z",
+    "updated":  "2026-08-10T11:02:05Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -12,10 +12,10 @@
                                            "weight_precip":  0.26
                                        },
                       "icon_d2":  {
-                                      "mae_t":  1.40,
+                                      "mae_t":  1.39,
                                       "n":  232,
-                                      "weight":  0.267,
-                                      "weight_temp":  0.267,
+                                      "weight":  0.27,
+                                      "weight_temp":  0.27,
                                       "brier_precip":  0.0259,
                                       "n_precip":  232,
                                       "weight_precip":  0.26
@@ -23,8 +23,8 @@
                       "icon_eu":  {
                                       "mae_t":  1.35,
                                       "n":  232,
-                                      "weight":  0.286,
-                                      "weight_temp":  0.286,
+                                      "weight":  0.285,
+                                      "weight_temp":  0.285,
                                       "brier_precip":  0.0259,
                                       "n_precip":  232,
                                       "weight_precip":  0.26
@@ -32,8 +32,8 @@
                       "gfs_seamless":  {
                                            "mae_t":  1.46,
                                            "n":  232,
-                                           "weight":  0.244,
-                                           "weight_temp":  0.244,
+                                           "weight":  0.243,
+                                           "weight_temp":  0.243,
                                            "brier_precip":  0.0345,
                                            "n_precip":  232,
                                            "weight_precip":  0.219
@@ -50,7 +50,7 @@
                                                                            "n":  58
                                                                        },
                                                       "icon_d2":  {
-                                                                      "mae":  2.42,
+                                                                      "mae":  2.43,
                                                                       "n":  58
                                                                   },
                                                       "icon_eu":  {
@@ -73,7 +73,7 @@
                                                                          "n":  58
                                                                      },
                                                     "icon_d2":  {
-                                                                    "mae":  1.21,
+                                                                    "mae":  1.19,
                                                                     "n":  58
                                                                 },
                                                     "icon_eu":  {
@@ -119,7 +119,7 @@
                                                                            "n":  58
                                                                        },
                                                       "icon_d2":  {
-                                                                      "mae":  0.70,
+                                                                      "mae":  0.66,
                                                                       "n":  58
                                                                   },
                                                       "icon_eu":  {
