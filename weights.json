@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-08-24T09:34:51Z",
+    "updated":  "2026-08-24T10:02:05Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -23,8 +23,8 @@
                       "icon_eu":  {
                                       "mae_t":  1.54,
                                       "n":  228,
-                                      "weight":  0.228,
-                                      "weight_temp":  0.228,
+                                      "weight":  0.229,
+                                      "weight_temp":  0.229,
                                       "brier_precip":  0.114,
                                       "n_precip":  228,
                                       "weight_precip":  0.162
@@ -100,7 +100,7 @@
                                                                        "n":  57
                                                                    },
                                                        "icon_eu":  {
-                                                                       "mae":  0.76,
+                                                                       "mae":  0.75,
                                                                        "n":  57
                                                                    },
                                                        "gfs_seamless":  {
