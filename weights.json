@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-09-02T15:02:06Z",
+    "updated":  "2026-09-02T16:02:09Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
                                            "mae_t":  1.53,
                                            "n":  252,
-                                           "weight":  0.273,
-                                           "weight_temp":  0.273,
+                                           "weight":  0.272,
+                                           "weight_temp":  0.272,
                                            "brier_precip":  0.0317,
                                            "n_precip":  252,
                                            "weight_precip":  0.352
@@ -14,17 +14,17 @@
                       "icon_d2":  {
                                       "mae_t":  1.42,
                                       "n":  252,
-                                      "weight":  0.32,
-                                      "weight_temp":  0.32,
+                                      "weight":  0.319,
+                                      "weight_temp":  0.319,
                                       "brier_precip":  0.0357,
                                       "n_precip":  252,
                                       "weight_precip":  0.325
                                   },
                       "icon_eu":  {
-                                      "mae_t":  1.53,
+                                      "mae_t":  1.52,
                                       "n":  252,
-                                      "weight":  0.274,
-                                      "weight_temp":  0.274,
+                                      "weight":  0.275,
+                                      "weight_temp":  0.275,
                                       "brier_precip":  0.0476,
                                       "n_precip":  252,
                                       "weight_precip":  0.256
@@ -77,7 +77,7 @@
                                                                     "n":  63
                                                                 },
                                                     "icon_eu":  {
-                                                                    "mae":  1.03,
+                                                                    "mae":  1.02,
                                                                     "n":  63
                                                                 },
                                                     "gfs_seamless":  {
@@ -100,7 +100,7 @@
                                                                        "n":  63
                                                                    },
                                                        "icon_eu":  {
-                                                                       "mae":  0.87,
+                                                                       "mae":  0.86,
                                                                        "n":  63
                                                                    },
                                                        "gfs_seamless":  {
