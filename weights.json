@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-09-29T18:02:07Z",
+    "updated":  "2026-09-29T19:02:07Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -145,13 +145,13 @@
                                            {
                                                "cape_min":  300,
                                                "cape_max":  800,
-                                               "n":  243,
-                                               "storm_pct":  5.3
+                                               "n":  240,
+                                               "storm_pct":  4.6
                                            },
                                            {
                                                "cape_min":  800,
                                                "cape_max":  1500,
-                                               "n":  25,
+                                               "n":  24,
                                                "storm_pct":  0
                                            },
                                            {
