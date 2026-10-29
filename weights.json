@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T21:43:12Z",
+    "updated":  "2026-10-29T22:02:06Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -21,10 +21,10 @@
                                       "weight_precip":  0.332
                                   },
                       "icon_eu":  {
-                                      "mae_t":  1.52,
+                                      "mae_t":  1.51,
                                       "n":  276,
-                                      "weight":  0.232,
-                                      "weight_temp":  0.232,
+                                      "weight":  0.233,
+                                      "weight_temp":  0.233,
                                       "brier_precip":  0.0906,
                                       "n_precip":  276,
                                       "weight_precip":  0.104
@@ -54,7 +54,7 @@
                                                                       "n":  69
                                                                   },
                                                       "icon_eu":  {
-                                                                      "mae":  2.09,
+                                                                      "mae":  2.08,
                                                                       "n":  69
                                                                   },
                                                       "gfs_seamless":  {
@@ -139,7 +139,7 @@
                                            {
                                                "cape_min":  0,
                                                "cape_max":  300,
-                                               "n":  5691,
+                                               "n":  5687,
                                                "storm_pct":  0.7
                                            },
                                            {
