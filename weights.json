@@ -1,42 +1,42 @@
 {
-    "updated":  "2026-10-29T10:02:04Z",
+    "updated":  "2026-10-29T11:02:07Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
-                                           "mae_t":  1.39,
-                                           "n":  228,
-                                           "weight":  0.26,
-                                           "weight_temp":  0.26,
-                                           "brier_precip":  0.0614,
-                                           "n_precip":  228,
-                                           "weight_precip":  0.223
+                                           "mae_t":  1.38,
+                                           "n":  232,
+                                           "weight":  0.261,
+                                           "weight_temp":  0.261,
+                                           "brier_precip":  0.0603,
+                                           "n_precip":  232,
+                                           "weight_precip":  0.224
                                        },
                       "icon_d2":  {
                                       "mae_t":  1.13,
-                                      "n":  228,
-                                      "weight":  0.378,
-                                      "weight_temp":  0.378,
-                                      "brier_precip":  0.0395,
-                                      "n_precip":  228,
-                                      "weight_precip":  0.346
+                                      "n":  232,
+                                      "weight":  0.377,
+                                      "weight_temp":  0.377,
+                                      "brier_precip":  0.0388,
+                                      "n_precip":  232,
+                                      "weight_precip":  0.345
                                   },
                       "icon_eu":  {
                                       "mae_t":  1.46,
-                                      "n":  228,
-                                      "weight":  0.235,
-                                      "weight_temp":  0.235,
-                                      "brier_precip":  0.1096,
-                                      "n_precip":  228,
-                                      "weight_precip":  0.085
+                                      "n":  232,
+                                      "weight":  0.234,
+                                      "weight_temp":  0.234,
+                                      "brier_precip":  0.1078,
+                                      "n_precip":  232,
+                                      "weight_precip":  0.087
                                   },
                       "gfs_seamless":  {
-                                           "mae_t":  1.89,
-                                           "n":  228,
-                                           "weight":  0.127,
-                                           "weight_temp":  0.127,
-                                           "brier_precip":  0.0395,
-                                           "n_precip":  228,
-                                           "weight_precip":  0.346
+                                           "mae_t":  1.88,
+                                           "n":  232,
+                                           "weight":  0.128,
+                                           "weight_temp":  0.128,
+                                           "brier_precip":  0.0388,
+                                           "n_precip":  232,
+                                           "weight_precip":  0.345
                                        }
                   },
     "points":  {
@@ -46,20 +46,20 @@
                                     "dist_km":  23.2,
                                     "per_model":  {
                                                       "ecmwf_ifs025":  {
-                                                                           "mae":  1.50,
-                                                                           "n":  57
+                                                                           "mae":  1.53,
+                                                                           "n":  58
                                                                        },
                                                       "icon_d2":  {
-                                                                      "mae":  1.57,
-                                                                      "n":  57
+                                                                      "mae":  1.60,
+                                                                      "n":  58
                                                                   },
                                                       "icon_eu":  {
-                                                                      "mae":  1.86,
-                                                                      "n":  57
+                                                                      "mae":  1.88,
+                                                                      "n":  58
                                                                   },
                                                       "gfs_seamless":  {
-                                                                           "mae":  1.99,
-                                                                           "n":  57
+                                                                           "mae":  2.02,
+                                                                           "n":  58
                                                                        }
                                                   }
                                 },
@@ -69,20 +69,20 @@
                                   "dist_km":  22.4,
                                   "per_model":  {
                                                     "ecmwf_ifs025":  {
-                                                                         "mae":  1.39,
-                                                                         "n":  57
+                                                                         "mae":  1.38,
+                                                                         "n":  58
                                                                      },
                                                     "icon_d2":  {
-                                                                    "mae":  1.23,
-                                                                    "n":  57
+                                                                    "mae":  1.21,
+                                                                    "n":  58
                                                                 },
                                                     "icon_eu":  {
-                                                                    "mae":  1.44,
-                                                                    "n":  57
+                                                                    "mae":  1.42,
+                                                                    "n":  58
                                                                 },
                                                     "gfs_seamless":  {
-                                                                         "mae":  1.59,
-                                                                         "n":  57
+                                                                         "mae":  1.57,
+                                                                         "n":  58
                                                                      }
                                                 }
                               },
@@ -92,20 +92,20 @@
                                      "dist_km":  3.7,
                                      "per_model":  {
                                                        "ecmwf_ifs025":  {
-                                                                            "mae":  0.75,
-                                                                            "n":  57
+                                                                            "mae":  0.74,
+                                                                            "n":  58
                                                                         },
                                                        "icon_d2":  {
-                                                                       "mae":  1.03,
-                                                                       "n":  57
+                                                                       "mae":  1.02,
+                                                                       "n":  58
                                                                    },
                                                        "icon_eu":  {
-                                                                       "mae":  1.38,
-                                                                       "n":  57
+                                                                       "mae":  1.37,
+                                                                       "n":  58
                                                                    },
                                                        "gfs_seamless":  {
-                                                                            "mae":  1.69,
-                                                                            "n":  57
+                                                                            "mae":  1.67,
+                                                                            "n":  58
                                                                         }
                                                    }
                                  },
@@ -115,20 +115,20 @@
                                     "dist_km":  2.2,
                                     "per_model":  {
                                                       "ecmwf_ifs025":  {
-                                                                           "mae":  1.92,
-                                                                           "n":  57
+                                                                           "mae":  1.89,
+                                                                           "n":  58
                                                                        },
                                                       "icon_d2":  {
-                                                                      "mae":  0.69,
-                                                                      "n":  57
+                                                                      "mae":  0.67,
+                                                                      "n":  58
                                                                   },
                                                       "icon_eu":  {
                                                                       "mae":  1.17,
-                                                                      "n":  57
+                                                                      "n":  58
                                                                   },
                                                       "gfs_seamless":  {
-                                                                           "mae":  2.30,
-                                                                           "n":  57
+                                                                           "mae":  2.27,
+                                                                           "n":  58
                                                                        }
                                                   }
                                 }
