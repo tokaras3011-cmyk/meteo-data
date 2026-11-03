@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-11-03T05:47:45Z",
+    "updated":  "2026-11-03T06:02:05Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -14,17 +14,17 @@
                       "icon_d2":  {
                                       "mae_t":  1.11,
                                       "n":  212,
-                                      "weight":  0.379,
-                                      "weight_temp":  0.379,
+                                      "weight":  0.378,
+                                      "weight_temp":  0.378,
                                       "brier_precip":  0.0189,
                                       "n_precip":  212,
                                       "weight_precip":  0.238
                                   },
                       "icon_eu":  {
-                                      "mae_t":  1.33,
+                                      "mae_t":  1.32,
                                       "n":  212,
-                                      "weight":  0.275,
-                                      "weight_temp":  0.275,
+                                      "weight":  0.277,
+                                      "weight_temp":  0.277,
                                       "brier_precip":  0.0189,
                                       "n_precip":  212,
                                       "weight_precip":  0.238
@@ -32,8 +32,8 @@
                       "gfs_seamless":  {
                                            "mae_t":  1.66,
                                            "n":  212,
-                                           "weight":  0.172,
-                                           "weight_temp":  0.172,
+                                           "weight":  0.171,
+                                           "weight_temp":  0.171,
                                            "brier_precip":  0.0142,
                                            "n_precip":  212,
                                            "weight_precip":  0.262
@@ -77,7 +77,7 @@
                                                                     "n":  53
                                                                 },
                                                     "icon_eu":  {
-                                                                    "mae":  0.82,
+                                                                    "mae":  0.81,
                                                                     "n":  53
                                                                 },
                                                     "gfs_seamless":  {
@@ -100,7 +100,7 @@
                                                                        "n":  53
                                                                    },
                                                        "icon_eu":  {
-                                                                       "mae":  0.61,
+                                                                       "mae":  0.60,
                                                                        "n":  53
                                                                    },
                                                        "gfs_seamless":  {
@@ -139,7 +139,7 @@
                                            {
                                                "cape_min":  0,
                                                "cape_max":  300,
-                                               "n":  5708,
+                                               "n":  5704,
                                                "storm_pct":  0.6
                                            },
                                            {
