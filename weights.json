@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-11-18T18:21:21Z",
+    "updated":  "2026-11-18T19:02:05Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -14,8 +14,8 @@
                       "icon_d2":  {
                                       "mae_t":  1.24,
                                       "n":  264,
-                                      "weight":  0.277,
-                                      "weight_temp":  0.277,
+                                      "weight":  0.278,
+                                      "weight_temp":  0.278,
                                       "brier_precip":  0.1402,
                                       "n_precip":  264,
                                       "weight_precip":  0.603
@@ -50,7 +50,7 @@
                                                                            "n":  66
                                                                        },
                                                       "icon_d2":  {
-                                                                      "mae":  2.97,
+                                                                      "mae":  2.98,
                                                                       "n":  66
                                                                   },
                                                       "icon_eu":  {
@@ -96,7 +96,7 @@
                                                                             "n":  66
                                                                         },
                                                        "icon_d2":  {
-                                                                       "mae":  0.48,
+                                                                       "mae":  0.47,
                                                                        "n":  66
                                                                    },
                                                        "icon_eu":  {
@@ -139,7 +139,7 @@
                                            {
                                                "cape_min":  0,
                                                "cape_max":  300,
-                                               "n":  5726,
+                                               "n":  5722,
                                                "storm_pct":  1.4
                                            },
                                            {
