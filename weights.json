@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-11-24T17:16:41Z",
+    "updated":  "2026-11-24T18:02:05Z",
     "method":  "vs. 10min stanice CHMU, poslednich 3 dni. weight_temp = softmax(-MAE teploty 2 m / 0.7); weight_precip = softmax(-Brier srazek (prah 0.1 mm) / 0.05); obe s podlahou 0.05. \u0027weight\u0027 = weight_temp (zpetna kompatibilita)",
     "per_model":  {
                       "ecmwf_ifs025":  {
@@ -23,8 +23,8 @@
                       "icon_eu":  {
                                       "mae_t":  1.42,
                                       "n":  260,
-                                      "weight":  0.256,
-                                      "weight_temp":  0.256,
+                                      "weight":  0.255,
+                                      "weight_temp":  0.255,
                                       "brier_precip":  0.0269,
                                       "n_precip":  260,
                                       "weight_precip":  0.221
@@ -54,7 +54,7 @@
                                                                       "n":  65
                                                                   },
                                                       "icon_eu":  {
-                                                                      "mae":  3.83,
+                                                                      "mae":  3.84,
                                                                       "n":  65
                                                                   },
                                                       "gfs_seamless":  {
@@ -139,7 +139,7 @@
                                            {
                                                "cape_min":  0,
                                                "cape_max":  300,
-                                               "n":  5734,
+                                               "n":  5730,
                                                "storm_pct":  1.4
                                            },
                                            {
